@@ -1,0 +1,11 @@
+﻿  TcpServer.cpp
+d:\vs\tcpserverv4\tcpserver\tcpserver\tcpserver.h(9): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+d:\vs\tcpserverv4\tcpserver\tcpserver\tcpserver.h(9): error C2737: “U_LONG”: 必须初始化“constexpr”对象
+d:\vs\tcpserverv4\tcpserver\tcpserver\tcpserver.h(9): error C2146: 语法错误: 缺少“;”(在标识符“ulong”的前面)
+d:\vs\tcpserverv4\tcpserver\tcpserver\tcpserver.h(11): error C2378: “U_LONG”: 重定义；符号不能由 typedef 重载
+  d:\vs\tcpserverv4\tcpserver\tcpserver\tcpserver.h(9): note: 参见“U_LONG”的声明
+d:\vs\tcpserverv4\tcpserver\tcpserver\tcpserver.cpp(25): error C2664: “int ioctlsocket(SOCKET,long,u_long *)”: 无法将参数 3 从“int *”转换为“u_long *”
+  d:\vs\tcpserverv4\tcpserver\tcpserver\tcpserver.cpp(25): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+d:\vs\tcpserverv4\tcpserver\tcpserver\tcpserver.cpp(64): warning C4018: “<”: 有符号/无符号不匹配
+d:\vs\tcpserverv4\tcpserver\tcpserver\tcpserver.cpp(56): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 参见“inet_ntoa”的声明
